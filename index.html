@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <div class="togle">
+            <h3 id="top">Add Book</h3>
+            <button class="toggle-button" id="myToggleButton"></button>
+        </div>
+
+        <input type="text" placeholder="Book Title" id="book">
+        <input type="text" placeholder="Author" id="auth">
+        <input type="submit" value="Add Book" id="add">
+    </div>
+    <div id="searchblock" class="searchblock">
+        <input type="text" name="search" id="search" placeholder="Search Book">
+        <input type="submit" value="Search Book" id="searchbook">
+
+    </div>
+    <div class="deleteall">
+        <button class="all" id="all">Delete All</button>
+    </div>
+    <div class="books-list">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th id="title">Book Title</th>
+                    <th id="writ">Author</th>
+                    <th id="action">Action</th>
+                </tr>
+            </thead>
+            <tbody id="test">
+
+            </tbody>
+
+
+
+        </table>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
