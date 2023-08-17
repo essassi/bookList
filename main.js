@@ -17,7 +17,7 @@ let search = document.getElementById("search");
 let searchbook = document.getElementById("searchbook");
 
 //dark mode
-let dark = JSON.parse(localStorage.getItem("mode"));
+let dark = localStorage.getItem("mode");
 if (dark) {
   myToggleButton.classList.add("on");
 
